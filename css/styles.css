@@ -1,0 +1,17 @@
+@import "./reset.css";
+
+/* components */
+@import "./components/screen-header.css";
+
+/* screens */
+@import "./screens/main-screen.css";
+
+body{
+    height: 1000vh;
+}
+
+.contents-area{
+    width: 1220px;
+    height: 30px;
+    margin: 0px auto;
+}
