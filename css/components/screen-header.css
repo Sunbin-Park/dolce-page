@@ -1,4 +1,4 @@
-.dolce-times-background{
+.dolce-times-header{
     position: fixed;
     top: 0px;
     width: 100%;
@@ -8,7 +8,7 @@
     z-index: 99;
 }
 
-.dolce-times-background__container{
+.dolce-times-header__container{
     font-family: Arial, Helvetica, sans-serif;
     color: #333333;
 
@@ -18,13 +18,13 @@
     padding: 4px 0px;
 }
 
-.dolce-times__column-lists-list{
+.dolce-times-header__lists--list{
     opacity: 0.7;
     font-weight: 700;
     padding: 8px;
     float: left;
 }
 
-.dolce-times__column-title{
+.dolce-times-header__column__title{
     font-size: 15px;
 }

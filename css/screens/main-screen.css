@@ -1,4 +1,4 @@
-.dolce-times-main__title-section-title{
+.dolce-times-main__title-section__title{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,20 +11,20 @@
     letter-spacing: -2px;
 }
 
-.dolce-times-nav__lists{
+.dolce-times-main__nav__lists{
     display: flex;
     align-items: center;
 }
 
-.dolce-times-nav__lists-list{
+.dolce-times-main__nav__lists--list{
     margin: 0px 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     float: left;
 }
 
-.dolce-times-nav__lists::before,
-.dolce-times-nav__lists::after{
+.dolce-times-main__nav__lists::before,
+.dolce-times-main__nav__lists::after{
     content: "";
     flex-grow: 1;
     background: rgba(0, 0, 0, 0.35);
@@ -32,12 +32,12 @@
     
 }
 
-.dolce-times-latest-news{
+.dolce-times-main-latest-news{
     display: flex;
     margin: 30px 0px;
 }
 
-.dolce-times-latest-news__contents:first-child{
+.dolce-times-main-latest-news__contents:first-child{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,7 +52,7 @@
     z-index: 2;
 }
 
-.dolce-times-latest-news__contents:last-child{
+.dolce-times-main-latest-news__contents:last-child{
     display: flex;
     align-items: center;
 
@@ -66,23 +66,16 @@
     z-index: 1;
 }
 
-.dolce-times-latest-news__contents:first-child span{
+.dolce-times-main-latest-news__contents:first-child span{
     font-size: 15px;
     font-weight: 600;
     color: white;
 }
 
-.dolce-times-latest-news__contents:last-child span{
+.dolce-times-main-latest-news__contents:last-child span{
     margin-left: 70px;
     font-size: 16px;
     font-weight: 600;
 
     font-family: 'Times New Roman', Times, serif;
 }
-
-/* .dolce-times-latest-news__contents{
-    width: 500px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background-color:rgb(127, 177, 51);
-} */
